@@ -1,0 +1,28 @@
+@import url(styles/cabecalho.css);
+@import url(styles/filmes.css);
+@import url(styles/footer.css);
+@import url(styles/initmoviepage.css);
+
+:root{
+    --cor-de-fundo: rgb(37, 37, 37);
+    --fonte-principal: 'Roboto', 'sans-serif';
+    --preto: #000;
+    --branco: #fff;
+    --cinza:  #181818;
+    --cinza-claro: #838383;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    position: relative;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    min-height: 100vh;
+    overflow: auto;
+}

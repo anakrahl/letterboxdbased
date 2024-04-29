@@ -1,0 +1,23 @@
+.ftoptions{
+    background-color: var(--cinza);
+    text-align: center;
+    align-items: center;
+    padding: 1.2em 0;
+    width:100%;
+    position: fixed;
+}
+
+.optionsbuttonsfooter {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.linkbutton img{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    filter: invert(100%);
+}

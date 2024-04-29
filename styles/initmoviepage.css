@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-image {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url(/images/Rocketman-piano.png);
+}
+
+.main-inform {
+  display: flex;
+  align-items: center;
+}
